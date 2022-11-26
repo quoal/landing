@@ -150,6 +150,7 @@ body {
     .info {
         flex-wrap: wrap-reverse;
         align-items: flex-start;
+        transform: translate(-50%, -75%);
     }
 
     .info .section {
@@ -162,7 +163,7 @@ body {
     }
 
     .info .section:nth-of-type(1) h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .info .section:nth-of-type(2) {
