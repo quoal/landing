@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/styles/style.css" />
+        <link rel="stylesheet" href="/styles/simple-notify.min.css" />
         <title>Document</title>
     </head>
     <body>
@@ -27,16 +28,20 @@
         <div class="newsletter">
             <div class="text">Sign up for early access, news, & updates.</div>
             <div class="signup">
-                <form action="/sign-up" method="post">
+                <form id="newsletter">
                     <input
                         type="email"
                         name="email"
+                        id="email"
                         placeholder="severus@hogwarts.edu"
                     /><input type="submit" class="submit" value="Sign Up" />
                 </form>
             </div>
         </div>
 
+        <script src="/scripts/axios.js"></script>
+        <script src="/scripts/simple-notify.min.js"></script>
         <script src="/scripts/index.js"></script>
+        <script src="/scripts/newsletter.js"></script>
     </body>
 </html>
